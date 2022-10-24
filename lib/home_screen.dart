@@ -30,8 +30,28 @@ class HomeScreen extends StatelessWidget {
                   )
                 ],
               ),
-            )
+            ),Container(
+      color: Colors.grey.shade300,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: const [
+          CircleAvatar(
+            radius: 20,
+            child: Icon(
+              Icons.home,
+              size: 20,
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Text("Home Icon")
+        ],
+      ),
+    ),
           ],
         ));
   }
 }
+
