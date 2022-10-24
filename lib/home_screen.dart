@@ -5,7 +5,7 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return  Scaffold(
         appBar: AppBar(),
         body: GridView.count(
           crossAxisCount: 2,
@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                 const CircleAvatar(
+                  const CircleAvatar(
                     radius: 50,
                     backgroundColor: Colors.amber,
                     child: Icon(Icons.person, size: 50),
